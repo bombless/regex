@@ -189,7 +189,7 @@ a few examples of regexes that get literal prefixes detected:
 * `(foo|bar)` detects `foo` and `bar`
 * `(a|b)c` detects `ac` and `bc`
 * `[ab]foo[yz]` detects `afooy`, `afooz`, `bfooy` and `bfooz`
-* `a?b` detects `a` and `b`
+* `a?b` detects `a` and `ab`
 * `a*b` detects `a` and `b`
 * `(ab){3,6}` detects `ababab`
 
